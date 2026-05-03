@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Akan Name Generator</h1>
+        <p>Calculate your Ghanaian name based on your birthdate</p>
+    </header>
+       <main>
+        <form id="akan-form">
+            <label for="birthday">entre your birthdate:</label>
+            <input type="date" id="birthday" required>
+            <set>
+                <legend>select gender:</legend>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">female</label>
+            </set>
+
+            <button type="submit">Find My Name</button>
+        </form>
+        <div id="result-display">
+            <p id="display-text"></p>
+        </div>
+       </main>
+
+       <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+# Akan Name Generator
+
+## Description
+A web application that takes a user's birthday and gender and calculates their Ghanaian 'Akan' name based on the day of the week they were born.
+
+## Author
+[Melody Mutai]
+
+## Setup Instructions
+1. Clone this repository to your local machine.
+2. Open `index.html` in your preferred browser.
+
+## Technologies Used
+* HTML5
+* CSS3 (Custom styles)
+* JavaScript 
+
+## BDD
+* Enter Birthday -> Select Gender -> Click Submit -> View Akan Name.
+
+## License
+MIT License © 2026
